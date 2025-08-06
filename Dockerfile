@@ -1,5 +1,5 @@
 # Reference the latest upstream image from GitHub Container Registry
-FROM ghcr.io/openwebui/open-webui:latest
+FROM ghcr.io/open-webui/open-webui:main
 
 # Add a startup script
 COPY docker-entrypoint.sh /docker-entrypoint.sh

@@ -28,4 +28,4 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/openwebui-with-additional-pip-modules:latest
+            ghcr.io/${{ github.repository_owner }}/openwebui-with-additional-pip-modules:main
