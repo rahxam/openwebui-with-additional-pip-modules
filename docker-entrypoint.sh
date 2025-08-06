@@ -6,4 +6,4 @@ if [ -n "$EXTRA_PYTHON_MODULES" ]; then
     pip3 install --no-cache-dir $EXTRA_PYTHON_MODULES
 fi
 
-exec "bash start.sh"
+exec bash ./start.sh
