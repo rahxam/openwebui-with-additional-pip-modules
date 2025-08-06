@@ -1,5 +1,5 @@
-# Reference the latest upstream image—replace the tag as needed (or use build args in automation)
-FROM openwebui/open-webui:latest
+# Reference the latest upstream image from GitHub Container Registry
+FROM ghcr.io/openwebui/open-webui:latest
 
 # Add a startup script
 COPY docker-entrypoint.sh /docker-entrypoint.sh
